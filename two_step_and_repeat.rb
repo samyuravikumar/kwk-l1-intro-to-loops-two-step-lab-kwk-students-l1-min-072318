@@ -37,7 +37,7 @@ def a_few_more_steps
   end
 end
 
-a_few_more_steps
+# a_few_more_steps
 
 def how_many_steps?
   steps = 0
@@ -48,7 +48,10 @@ def how_many_steps?
       puts "Left"
     else
       puts "Right"
+    sleep(0.5)
 end
+
+how_many_steps?
 
 def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
